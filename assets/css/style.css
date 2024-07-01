@@ -1,0 +1,155 @@
+/* setting to override default browser styles */
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+html, body {
+    height: 100%;
+    width: 100%;
+}
+
+body {
+    display: flex;
+    min-height: 100vh;
+    background-color: #f5f5f5;
+    color: #FAFAFA;
+}
+
+/* Footer */
+
+footer {
+    background-color: #0b0b0a;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 50px;
+    padding: 0 20px;
+    width: calc(100% - 20px);
+    border-radius: 15px;
+    margin: 20px auto;
+    box-sizing: border-box;
+    font-family: "Jolly Lodger";
+    font-size: 24px;
+}
+
+.footer-text {
+    color: #f5f5f5;
+}
+
+.footer-icons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer-icons a {
+    margin: 0 5px;
+}
+
+footer i {
+    font-size: 25px;
+    color: #f5f5f5;
+}
+
+.footer-names {
+    color: #f5f5f5;
+}
+
+/* Media query for medium screens (768px and down to 576px) */
+@media screen and (max-width: 768px) and (min-width: 576px) {
+    
+    footer {
+        background-color: #0b0b0a;
+        justify-content: space-between;
+        align-items: center;
+        height: 60px;
+        padding: 0 20px;
+        width: calc(100% - 20px);
+        border-radius: 15px;
+        margin: 20px auto;
+        box-sizing: border-box;
+    }
+
+    .footer-text {
+        color: #f5f5f5;
+        align-self: auto;
+        text-align: center;
+        font-size: 22px;
+        padding-right: 10px;
+    }
+
+    .footer-names {
+        color: #f5f5f5;
+        align-self: auto;
+        text-align: center;
+        font-size: 22px;
+        padding-left: 10px;
+    }
+
+    .footer-icons {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .footer-icons a {
+        margin: 0 5px;
+    }
+    
+    footer i {
+        font-size: 18px;
+        color: #f5f5f5;
+        padding: 5px;
+    }
+    
+}
+
+/* Media query for extra small screens (576px and below) */
+@media screen and (max-width: 576px) {
+
+    footer {
+        background-color: #0b0b0a;
+        justify-content: space-between;
+        align-items: center;
+        height: 75px;
+        padding: 0 20px;
+        width: calc(100% - 20px);
+        border-radius: 15px;
+        margin: 20px auto;
+        box-sizing: border-box;
+    }
+
+    .footer-text {
+        color: #f5f5f5;
+        align-self: auto;
+        text-align: center;
+        font-size: 16px;
+        padding-right: 10px;
+    }
+
+    .footer-names {
+        color: #f5f5f5;
+        align-self: auto;
+        text-align: center;
+        font-size: 16px;
+        padding-left: 10px;
+    }
+
+    .footer-icons {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .footer-icons a {
+        margin: 0 5px;
+    }
+    
+    footer i {
+        font-size: 18px;
+        color: #f5f5f5;
+        padding: 2px;
+    }
+}
