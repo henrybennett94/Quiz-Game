@@ -35,7 +35,7 @@ footer {
 }
 
 .footer-text {
-    color: #f5f5f5;
+    color: #b91327;
 }
 
 .footer-icons {
@@ -50,11 +50,11 @@ footer {
 
 footer i {
     font-size: 25px;
-    color: #f5f5f5;
+    color: #b91327;
 }
 
 .footer-names {
-    color: #f5f5f5;
+    color: #b91327;
 }
 
 /* Media query for medium screens (768px and down to 576px) */
@@ -73,7 +73,7 @@ footer i {
     }
 
     .footer-text {
-        color: #f5f5f5;
+        color: #b91327;
         align-self: auto;
         text-align: center;
         font-size: 22px;
@@ -81,7 +81,7 @@ footer i {
     }
 
     .footer-names {
-        color: #f5f5f5;
+        color: #b91327;
         align-self: auto;
         text-align: center;
         font-size: 22px;
@@ -100,7 +100,7 @@ footer i {
     
     footer i {
         font-size: 18px;
-        color: #f5f5f5;
+        color: #b91327;
         padding: 5px;
     }
     
@@ -122,7 +122,7 @@ footer i {
     }
 
     .footer-text {
-        color: #f5f5f5;
+        color: #b91327;
         align-self: auto;
         text-align: center;
         font-size: 16px;
@@ -130,7 +130,7 @@ footer i {
     }
 
     .footer-names {
-        color: #f5f5f5;
+        color: #b91327;
         align-self: auto;
         text-align: center;
         font-size: 16px;
@@ -149,7 +149,7 @@ footer i {
     
     footer i {
         font-size: 18px;
-        color: #f5f5f5;
+        color: #b91327;
         padding: 2px;
     }
 }
