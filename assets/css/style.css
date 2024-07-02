@@ -9,14 +9,18 @@
 html, body {
     height: 100%;
     width: 100%;
+    color: #b91327;
    
 }
 
 body {
     min-height: 100vh;
 }
+a {
+    text-decoration: none;
+}
 /* Nav */
-nav {
+.navbar {
     background-color: #0b0b0b;
     display: flex;
     justify-content: space-between;
@@ -32,17 +36,17 @@ nav {
     overflow: hidden;
 }
 
-.logo{
-    display: flex;
-   
-}
 
 #nav-header {
     font-size: 45px;
     color: #b91327;
-    display: flex;
+    text-align: center;
 }
 
+.nav-links {
+    display: flex;
+    justify-content: flex-end;
+}
 
 .nav-button {
     padding: 15px;
@@ -74,7 +78,7 @@ nav {
     text-decoration: none;
   }
 
- 
+  
 /* Footer */
 
 footer {
