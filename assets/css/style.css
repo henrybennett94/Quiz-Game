@@ -16,8 +16,9 @@ html, body {
 body {
     min-height: 100vh;
 }
-a {
+#nav-header a {
     text-decoration: none;
+    color: #b91327;
 }
 /* Nav */
 .navbar {
