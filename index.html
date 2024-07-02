@@ -121,35 +121,29 @@
 
             <div id="final-room" class="room hidden text-center">
                 <h2>The Secret Chamber</h2>
-                <p>Congratulations! You've found the hidden key and escaped the haunted mansion!</p>
+                <p>Congratulations! You've found the hidden key <img src="assets/images/key1.png" alt="image of key"> escaped the haunted mansion!</p>
                 <p>Thank you for playing the Virtual Escape Room Quiz!</p>
+            </div>
+            <div id="wrong-answer" class="room hidden">
+                <h2>Wrong Answer!</h2>
+                <p>Oops! Looks like your answer was incorrect.</p>
+                <p>Do you want to try again?</p>
+                <button class="btn btn-primary" onclick="startGame()">Start Again</button>
             </div>
         </div>
     </div>
     <div class="ghost">
-
         <div class="ghost-eyes">
-
             <div class="ghost-eye left"></div>
-
             <div class="ghost-eye right"></div>
-
         </div>
-
         <div class="ghost-mouth"></div>
-
         <div class="ghost-tentacles">
-
             <div class="tentacle"></div>
-
             <div class="tentacle"></div>
-
             <div class="tentacle"></div>
-
             <div class="tentacle"></div>
-
         </div>
-
     </div>
 
     <!-- Footer -->
@@ -163,15 +157,15 @@
     </footer>
 
     <audio id="background-sound" loop>
-        <source src="assets/audio/scaryaudio.mp3" type="audio/mpeg">
+        <source src="assets/audio/spookysound.mp3" type="audio/mpeg">
         Your browser does not support the audio element.
     </audio>
     <audio id="correct-answer-sound">
-        <source src="assets/audio/scaryaudio.mp3" type="audio/mpeg">
+        <source src="assets/audio/spookysound.mp3" type="audio/mpeg">
         Your browser does not support the audio element.
     </audio>
     <audio id="next-room-sound">
-        <source src="assets/audio/dooraudio.mp3" type="audio/mpeg">
+        <source src="assets/audio/doorsound.mp3" type="audio/mpeg">
         Your browser does not support the audio element.
     </audio>
 
