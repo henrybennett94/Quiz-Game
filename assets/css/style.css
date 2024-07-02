@@ -1,11 +1,13 @@
+/* Craig's CSS */
+
 /* setting to override default browser styles */
 
 * {
     padding: 0;
     margin: 0;
-    box-sizing: border-box;  
+    box-sizing: border-box;
+    
 }
-
 html, body {
     height: 100%;
     width: 100%;
@@ -690,9 +692,3 @@ button:hover {
     }
 }
 /*End of Ashwini's css*/
-
-/* Henry's CSS for rules page*/
-
-span #game {
-    color: #fff
-}
