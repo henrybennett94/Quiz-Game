@@ -1,10 +1,13 @@
-ul {
+/*ul {
     list-style-type: none;
 }
 
 .row {
-    background-color: rgb(206, 206, 239);
+    background-color: rgba(68, 68, 68, 0.9);
+    color: #fff;
 }
+
+
 /*Ashwini's css*/
 body {
     font-family: Arial, sans-serif;
@@ -263,3 +266,9 @@ footer p {
     }
 }
 /*End of Ashwini's css*/
+
+/* Henry's CSS for rules page*/
+
+span #game {
+    color: #fff
+}
