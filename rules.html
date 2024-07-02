@@ -12,18 +12,37 @@
     </head>
 <body>
     <div class="container text-center">
-        <h1>RULES</h1>
         <div class="row">
                 <h3>Welcome to the Mystery Mansion!</h3>
                 <p>If you wish to leave, by all means, feel free to do so. Oh, but there is one thing...</p>
-                <ul>
+                <div class="accordion" id="accordionExample">
+                    <div class="accordion-item">
+                      <h2 class="accordion-header">
+                        <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                          Reveal the Rules of the Game!
+                        </button>
+                      </h2>
+                      <div id="collapseOne" class="accordion-collapse collapse show" data-bs-parent="#accordionExample">
+                        <div class="accordion-body">
+                            <ul>
+                                <li>You will need to find your way through each room</li>
+                                <li>In each room you will need to answer five questions</li>
+                                <li>You will be presented with each question one at a time. To submit an answer, select the correct answer from the multiple choice, and then click "Submit"</li>
+                                <li>If you answer correctly, you will get another question. When you have answerd five correctly in a row, you will enter a new room.</li>
+                                <li>If you answer incorrectly, you will be sent back to your starting point.</li>
+                                <li>When you have successfully gone through all the rooms, you will be able to leave the Mystery Mansion!</li>
+                            </ul>                       
+                         </div>
+                      </div>
+                    </div>
+               <!-- <ul>
                     <li>You will need to find your way through each room</li>
                     <li>In each room you will need to answer five questions</li>
                     <li>You will be presented with each question one at a time. To submit an answer, select the correct answer from the multiple choice, and then click "Submit"</li>
                     <li>If you answer correctly, you will get another question. When you have answerd five correctly in a row, you will enter a new room.</li>
                     <li>If you answer incorrectly, you will be sent back to your starting point.</li>
                     <li>When you have successfully gone through all the rooms, you will be able to leave the Mystery Mansion!</li>
-                </ul>
+                </ul> -->
         </div>
         <div class="row"><span><a href="playgame.html"> <button class="btn btn-primary" onclick="startGame()">Start Game</button></a></span></div>
     </div>
