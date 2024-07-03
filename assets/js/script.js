@@ -1,7 +1,61 @@
 // Define the rooms and their properties
 var rooms = {
+
     'living-room': {
-        correctAnswer: 'Gryffindor',
+
+        questions: [
+
+            {
+
+                question: 'Which house does Harry Potter belong to?',
+
+                correctAnswer: 'Gryffindor',
+
+                choices: ['Gryffindor', 'Hufflepuff', 'Ravenclaw', 'Slytherin']
+
+            },
+
+            {
+
+                question: 'Who is the headmaster of Hogwarts?',
+
+                correctAnswer: 'Dumbledore',
+
+                choices: ['Dumbledore', 'Snape', 'McGonagall', 'Hagrid']
+
+            },
+
+            {
+
+                question: 'What position does Harry Potter play in Quidditch?',
+
+                correctAnswer: 'Seeker',
+
+                choices: ['Chaser', 'Keeper', 'Beater', 'Seeker']
+
+            },
+
+            {
+
+                question: 'What is the name of Harry Potter\'s owl?',
+
+                correctAnswer: 'Hedwig',
+
+                choices: ['Hedwig', 'Crookshanks', 'Scabbers', 'Fang']
+
+            },
+
+            {
+
+                question: 'What spell is used to disarm an opponent?',
+
+                correctAnswer: 'Expelliarmus',
+
+                choices: ['Expelliarmus', 'Avada Kedavra', 'Alohomora', 'Wingardium Leviosa']
+
+            }
+
+        ],
         nextRoom: 'library',
         backgroundImage: 'assets/images/livingroom.jpg',
     },
@@ -56,6 +110,27 @@ function startGame() {
     // Show the first room
     showElement('living-room');
     playBackgroundSound();
+}
+// Function to set a random question for a room
+
+function setQuestion(room) {
+    var currentRoom = rooms[room];
+    var questionData = currentRoom.questions[Math.floor(Math.random() * currentRoom.questions.length)];
+    currentRoom.currentQuestion = questionData;  // Store the current question
+    var roomElement = document.getElementById(room);
+
+// Set the question text
+
+    roomElement.querySelector('h2').textContent = currentRoom.name;
+    roomElement.querySelector('p').textContent = questionData.question;
+
+    // Set the choices
+
+    var buttons = roomElement.querySelectorAll('button');
+    questionData.choices.forEach((choice, index) => {
+    buttons[index].textContent = choice;
+    buttons[index].setAttribute('onclick', `checkAnswer('${room}', '${choice}')`);
+     });
 }
 
 // Function to check the answer
