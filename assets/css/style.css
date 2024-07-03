@@ -681,3 +681,35 @@ ul {
     width: 50%;
 }
 /*End of Ashwini's css*/
+
+/* Rules CSS */
+
+#rules-container {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-family: "Griffy";
+}
+
+.rules-header {
+    font-size: 28px;
+    font-family: "Griffy", Arial, sans-serif;
+    color: #f5f5f5;
+    letter-spacing: 3px;
+}
+
+.smaller-rules-header {
+    font-size: 26px;
+    font-family: "Griffy", Arial, sans-serif;
+    color: #f5f5f5;
+    letter-spacing: 3px;
+}
+
+.rules-text {
+    font-size: 18px;
+    font-family: "Griffy", Arial, sans-serif;
+    color: #f5f5f5;
+    letter-spacing: 3px;
+}
