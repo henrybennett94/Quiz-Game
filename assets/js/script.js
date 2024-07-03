@@ -36,13 +36,24 @@ var rooms = {
         backgroundImage: 'assets/images/kitchen.jpg',
     },
     'final-room': {
-        backgroundImage: 'assets/images/final-room.jpg',
+        backgroundImage: 'assets/images/finalroom.jpg',
     },
 };
 
 // Function to start the game
 function startGame() {
-    hideElement('intro');
+    // Reset feedback messages
+    document.querySelectorAll('.feedback').forEach(function(feedback) {
+        feedback.textContent = '';
+    });
+    
+    // Hide all rooms
+    document.querySelectorAll('.room').forEach(function(room) {
+        room.classList.add('hidden');
+        room.classList.remove('active');
+    });
+    
+    // Show the first room
     showElement('living-room');
     playBackgroundSound();
 }
@@ -63,8 +74,7 @@ function checkAnswer(room, answer) {
         feedback.style.color = 'red';
         playNextRoomSound();
         setTimeout(function() {
-            alert('Wrong answer! You will be redirected to the start page.');
-            resetGame(room);
+            showWrongAnswerPage();
         }, 2000);
     }
 }
@@ -80,12 +90,14 @@ function transitionToNextRoom(currentRoom, nextRoom) {
     }
 }
 
-// Helper function to reset the game
-function resetGame(room) {
-    hideElement(room);
-    showElement('intro');
-    document.querySelector('#' + room + ' .feedback').textContent = '';
-    stopBackgroundSound();
+// Function to show the wrong answer page
+function showWrongAnswerPage() {
+    document.querySelectorAll('.room').forEach(function(room) {
+        room.classList.add('hidden');
+        room.classList.remove('active');
+    });
+    document.getElementById('wrong-answer').classList.remove('hidden');
+    document.getElementById('wrong-answer').classList.add('active');
 }
 
 // Helper function to show an element by ID

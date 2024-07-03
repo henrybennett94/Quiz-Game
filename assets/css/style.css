@@ -16,15 +16,15 @@ html, body {
 }
 
 body {
-    min-height: 100vh;
+    
     font-family: "Griffy", Arial, sans-serif;
+    background: url('./../images/house.jpg') no-repeat center center fixed;
     background-size: cover;
     color: #fafafa;
-    background: url('assets/images/house.jpg') no-repeat center center fixed;
     margin: 0;
+    display: flex;
     padding: 0;
     overflow: hidden;
-    display: flex;
     flex-direction: column;
     min-height: 100vh;
     transition: background-image 0.5s ease-in-out;
@@ -579,97 +579,49 @@ button:hover {
     box-shadow: 0 0 10px red;
 }
 .ghost-tentacles {
-
     position: absolute;
-
     bottom: 0;
-
     left: 50%;
-
     width: 100px;
-
     height: 50px;
-
     margin-left: -50px;
-
     overflow: hidden;
-
 }
-
-
 
 .tentacle {
-
     position: absolute;
-
     bottom: 0;
-
     width: 20px;
-
     height: 100%;
-
     background: radial-gradient(circle, white 60%, #ccc);
-
     animation: wave 2s ease-in-out infinite;
-
 }
-
-
 
 .tentacle:nth-child(1) {
-
-    left: 0;
-
-    animation-delay: -0.5s;
-
+     left: 0;
+     animation-delay: -0.5s;
 }
-
-
-
 .tentacle:nth-child(2) {
-
-    left: 20px;
-
-    animation-delay: -1s;
-
+     left: 20px;
+     animation-delay: -1s;
 }
-
-
-
 .tentacle:nth-child(3) {
-
     left: 40px;
-
     animation-delay: -1.5s;
-
 }
-
-
 
 .tentacle:nth-child(4) {
-
     left: 60px;
-
     animation-delay: -2s;
-
 }
-
-
-
 @keyframes wave {
-
-    0%, 100% {
-
-        transform: translateY(0);
+     0%, 100% {
+      transform: translateY(0);
 
     }
-
     50% {
-
-        transform: translateY(10px);
-
-    }
-
+     transform: translateY(10px);
+       }
 }
 
 /* Floating Animation */
@@ -690,5 +642,12 @@ button:hover {
     100% {
         left: 100%;
     }
+}
+#wrong-answer {
+    text-align: center;
+    border: 2px solid black;
+    padding: 20px;
+    margin: auto;
+    width: 50%;
 }
 /*End of Ashwini's css*/
