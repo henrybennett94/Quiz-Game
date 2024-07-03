@@ -275,7 +275,7 @@ function checkAnswer(room, answer) {
         feedback.style.color = 'red';
         playNextRoomSound();
         setTimeout(function() {
-            showWrongAnswerPage();
+            transitionToWrongAnswer();
         }, 2000);
     }
 }
@@ -292,16 +292,26 @@ function transitionToNextRoom(currentRoom, nextRoom) {
     }
 }
 
-// Function to show the wrong answer page
-function showWrongAnswerPage() {
+// Function to transition to the wrong answer room
+
+function transitionToWrongAnswer() {
+    hideAllRooms();
+    showElement('wrong-answer');
+    changeBackgroundImage(rooms['wrong-answer'].backgroundImage);
+    stopBackgroundSound();
+}
+
+
+
+// Helper function to hide all rooms
+
+function hideAllRooms() 
+{
     document.querySelectorAll('.room').forEach(function(room) {
         room.classList.add('hidden');
         room.classList.remove('active');
     });
-    document.getElementById('intro').classList.remove('hidden');
-    document.getElementById('intro').classList.add('active');
 }
-
 // Helper function to show an element by ID
 function showElement(id) {
     document.getElementById(id).classList.remove('hidden');
