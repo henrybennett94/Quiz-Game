@@ -1,7 +1,7 @@
 // Define the rooms and their properties
 var rooms = {
     'living-room': {
-        name: 'Living Room',
+        name: 'The Living Room',
         questions: [
             {
                 question: 'Which house does Harry Potter belong to?',
@@ -59,6 +59,7 @@ var rooms = {
         backgroundImage: 'assets/images/livingroom.jpg'
     },
     'library': {
+        name: 'The Library',
         questions: [
             {
                 question: 'Which of these famous authors wrote "Dracula"?',
@@ -115,6 +116,7 @@ var rooms = {
         backgroundImage: 'assets/images/library.jpg'
     },
     'dining-hall': {
+        name: 'The Dining Hall',
         questions: [
             {
                 question: 'What is 90 multipled by 6?',
@@ -171,6 +173,7 @@ var rooms = {
         backgroundImage: 'assets/images/diningroom.jpg'
     },
     'gallery': {
+        name: 'The Gallery',
         questions: [
             {
                 question: 'Which of these paintings is by Vincent van Gogh?',
@@ -228,6 +231,7 @@ var rooms = {
         backgroundImage: 'assets/images/gallery.jpg'
     },
     'study': {
+        name: 'The Study',
         questions: [
             {
                 question: 'Which element is necessary for the process of photosynthesis?',
@@ -284,6 +288,7 @@ var rooms = {
         backgroundImage: 'assets/images/study.jpg'
     },
     'observatory': {
+        name: 'The Observatory',
         questions: [
             {
                 question: 'Which planet is known as the Red Planet?',
@@ -340,6 +345,7 @@ var rooms = {
         backgroundImage: 'assets/images/observatory.jpg'
     },
     'kitchen': {
+        name: 'The Kitchen',
         questions: [
             {
                 question: 'What is the process called that converts sugars into alcohol?',
