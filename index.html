@@ -37,95 +37,115 @@
         </div>
     </nav>
 
+    <!-- Game Container-->
+
     <div id="game-container" class="container">
         <div id="game">
             <div id="intro" class="room active text-center">
                 <h2>Escape from the Haunted Mansion</h2>
                 <p>You find yourself in a creepy, abandoned mansion. To escape, solve the puzzles and answer the
                     questions correctly. Find the hidden key before midnight!</p>
-                <button class="btn btn-primary" onclick="startGame()">Start Game</button>
+                <div class="d-flex justify-content-center"><button class="game-button" onclick="startGame()">Start
+                        Game</button></div>
             </div>
 
             <div id="living-room" class="room hidden text-center">
                 <h2></h2>
                 <p></p>
-                <button class="btn btn-primary" onclick="checkAnswer('living-room')"></button>
-                <button class="btn btn-primary" onclick="checkAnswer('living-room')"></button>
-                <button class="btn btn-primary" onclick="checkAnswer('living-room')"></button>
-                <button class="btn btn-primary" onclick="checkAnswer('living-room')"></button>
+                <div class="d-flex justify-content-center"><button class="game-button"
+                        onclick="checkAnswer('living-room')"></button>
+                    <button class="game-button" onclick="checkAnswer('living-room')"></button></div>
+                <div class="d-flex justify-content-center"><button class="game-button"
+                        onclick="checkAnswer('living-room')"></button>
+                    <button class="game-button" onclick="checkAnswer('living-room')"></button></div>
                 <p class="feedback"></p>
             </div>
 
             <div id="library" class="room hidden text-center">
                 <h2></h2>
                 <p></p>
-                <button class="btn btn-primary" onclick="checkAnswer('library')"></button>
-                <button class="btn btn-primary" onclick="checkAnswer('library')"></button>
-                <button class="btn btn-primary" onclick="checkAnswer('library')"></button>
-                <button class="btn btn-primary" onclick="checkAnswer('library')"></button>
+                <div class="d-flex justify-content-center"><button class="game-button"
+                        onclick="checkAnswer('library')"></button>
+                    <button class="game-button" onclick="checkAnswer('library')"></button></div>
+                <div class="d-flex justify-content-center"><button class="game-button"
+                        onclick="checkAnswer('library')"></button>
+                    <button class="game-button" onclick="checkAnswer('library')"></button></div>
                 <p class="feedback"></p>
             </div>
 
             <div id="dining-hall" class="room hidden text-center">
                 <h2></h2>
                 <p></p>
-                <button class="btn btn-primary" onclick="checkAnswer('dining-hall')"></button>
-                <button class="btn btn-primary" onclick="checkAnswer('dining-hall')"></button>
-                <button class="btn btn-primary" onclick="checkAnswer('dining-hall')"></button>
-                <button class="btn btn-primary" onclick="checkAnswer('dining-hall')"></button>
+                <div class="d-flex justify-content-center"><button class="game-button"
+                        onclick="checkAnswer('dining-hall')"></button>
+                    <button class="game-button" onclick="checkAnswer('dining-hall')"></button></div>
+                <div class="d-flex justify-content-center"><button class="game-button"
+                        onclick="checkAnswer('dining-hall')"></button>
+                    <button class="game-button" onclick="checkAnswer('dining-hall')"></button></div>
                 <p class="feedback"></p>
             </div>
 
             <div id="gallery" class="room hidden text-center">
                 <h2></h2>
                 <p></p>
-                <button class="btn btn-primary" onclick="checkAnswer('gallery')"></button>
-                <button class="btn btn-primary" onclick="checkAnswer('gallery')"></button>
-                <button class="btn btn-primary" onclick="checkAnswer('gallery')"></button>
-                <button class="btn btn-primary" onclick="checkAnswer('gallery')"></button>
+                <div class="d-flex justify-content-center"><button class="game-button"
+                        onclick="checkAnswer('gallery')"></button>
+                    <button class="game-button" onclick="checkAnswer('gallery')"></button></div>
+                <div class="d-flex justify-content-center"><button class="game-button"
+                        onclick="checkAnswer('gallery')"></button>
+                    <button class="game-button" onclick="checkAnswer('gallery')"></button></div>
                 <p class="feedback"></p>
             </div>
 
             <div id="study" class="room hidden text-center">
                 <h2></h2>
                 <p></p>
-                <button class="btn btn-primary" onclick="checkAnswer('study')"></button>
-                <button class="btn btn-primary" onclick="checkAnswer('study')"></button>
-                <button class="btn btn-primary" onclick="checkAnswer('study')"></button>
-                <button class="btn btn-primary" onclick="checkAnswer('study')"></button>
+                <div class="d-flex justify-content-center"><button class="game-button"
+                        onclick="checkAnswer('study')"></button>
+                    <button class="game-button" onclick="checkAnswer('study')"></button></div>
+                <div class="d-flex justify-content-center"><button class="game-button"
+                        onclick="checkAnswer('study')"></button>
+                    <button class="game-button" onclick="checkAnswer('study')"></button></div>
                 <p class="feedback"></p>
             </div>
 
             <div id="observatory" class="room hidden text-center">
                 <h2></h2>
                 <p></p>
-                <button class="btn btn-primary" onclick="checkAnswer('observatory')"></button>
-                <button class="btn btn-primary" onclick="checkAnswer('observatory')"></button>
-                <button class="btn btn-primary" onclick="checkAnswer('observatory')"></button>
-                <button class="btn btn-primary" onclick="checkAnswer('observatory')"></button>
+                <div class="d-flex justify-content-center"><button class="game-button"
+                        onclick="checkAnswer('observatory')"></button>
+                    <button class="game-button" onclick="checkAnswer('observatory')"></button></div>
+                <div class="d-flex justify-content-center"><button class="game-button"
+                        onclick="checkAnswer('observatory')"></button>
+                    <button class="game-button" onclick="checkAnswer('observatory')"></button></div>
                 <p class="feedback"></p>
             </div>
 
             <div id="kitchen" class="room hidden text-center">
                 <h2></h2>
                 <p></p>
-                <button class="btn btn-primary" onclick="checkAnswer('kitchen')"></button>
-                <button class="btn btn-primary" onclick="checkAnswer('kitchen')"></button>
-                <button class="btn btn-primary" onclick="checkAnswer('kitchen')"></button>
-                <button class="btn btn-primary" onclick="checkAnswer('kitchen')"></button>
+                <div class="d-flex justify-content-center"><button class="game-button"
+                        onclick="checkAnswer('kitchen')"></button>
+                    <button class="game-button" onclick="checkAnswer('kitchen')"></button></div>
+                <div class="d-flex justify-content-center"><button class="game-button"
+                        onclick="checkAnswer('kitchen')"></button>
+                    <button class="game-button" onclick="checkAnswer('kitchen')"></button></div>
                 <p class="feedback"></p>
             </div>
 
             <div id="final-room" class="room hidden text-center">
                 <h2>The Secret Chamber</h2>
-                <p>Congratulations! You've found the hidden key <img src="assets/images/key1.png" alt="image of key"> and escaped the haunted mansion!</p>
+                <p>Congratulations! You've found the hidden key <img src="assets/images/key1.png" alt="image of key">
+                    and escaped the haunted mansion!</p>
                 <p>Thank you for playing the Virtual Escape Room Quiz!</p>
+                <div class="d-flex justify-content-center"><button class="game-button d-flex justify-content-center"
+                        onclick="startGame()">Restart Game</button></div>
             </div>
             <div id="wrong-answer" class="room hidden">
                 <h2>Wrong Answer!</h2>
                 <p>Oops! Looks like your answer was incorrect.</p>
                 <p>Do you want to try again?</p>
-                <button class="btn btn-primary" onclick="startGame()">Start Again</button>
+                <button class="game-button" onclick="startGame()">Start Again</button>
             </div>
         </div>
     </div>
