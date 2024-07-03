@@ -42,16 +42,16 @@
     <div id="game-container" class="container">
         <div id="game">
             <div id="intro" class="room active text-center">
-                <h2>Escape from the Haunted Mansion</h2>
-                <p>You find yourself in a creepy, abandoned mansion. To escape, solve the puzzles and answer the
+                <h2 class="index-header">Escape from the Haunted Mansion</h2>
+                <p class="index-text">You find yourself in a creepy, abandoned mansion. To escape, solve the puzzles and answer the
                     questions correctly. Find the hidden key before midnight!</p>
                 <div class="d-flex justify-content-center"><button class="game-button" onclick="startGame()">Start
                         Game</button></div>
             </div>
 
             <div id="living-room" class="room hidden text-center">
-                <h2></h2>
-                <p></p>
+                <h2 class="index-header"></h2>
+                <p class="index-text"></p>
                 <div class="d-flex justify-content-center"><button class="game-button"
                         onclick="checkAnswer('living-room')"></button>
                     <button class="game-button" onclick="checkAnswer('living-room')"></button></div>
@@ -62,8 +62,8 @@
             </div>
 
             <div id="library" class="room hidden text-center">
-                <h2></h2>
-                <p></p>
+                <h2 class="index-header"></h2>
+                <p class="index-text"></p>
                 <div class="d-flex justify-content-center"><button class="game-button"
                         onclick="checkAnswer('library')"></button>
                     <button class="game-button" onclick="checkAnswer('library')"></button></div>
@@ -74,8 +74,8 @@
             </div>
 
             <div id="dining-hall" class="room hidden text-center">
-                <h2></h2>
-                <p></p>
+                <h2 class="index-header"></h2>
+                <p class="index-text"></p>
                 <div class="d-flex justify-content-center"><button class="game-button"
                         onclick="checkAnswer('dining-hall')"></button>
                     <button class="game-button" onclick="checkAnswer('dining-hall')"></button></div>
@@ -86,7 +86,7 @@
             </div>
 
             <div id="gallery" class="room hidden text-center">
-                <h2></h2>
+                <h2 class="index-header"></h2>
                 <p></p>
                 <div class="d-flex justify-content-center"><button class="game-button"
                         onclick="checkAnswer('gallery')"></button>
@@ -98,8 +98,8 @@
             </div>
 
             <div id="study" class="room hidden text-center">
-                <h2></h2>
-                <p></p>
+                <h2 class="index-header"></h2>
+                <p class="index-text"></p>
                 <div class="d-flex justify-content-center"><button class="game-button"
                         onclick="checkAnswer('study')"></button>
                     <button class="game-button" onclick="checkAnswer('study')"></button></div>
@@ -110,8 +110,8 @@
             </div>
 
             <div id="observatory" class="room hidden text-center">
-                <h2></h2>
-                <p></p>
+                <h2 class="index-header"></h2>
+                <p class="index-text"></p>
                 <div class="d-flex justify-content-center"><button class="game-button"
                         onclick="checkAnswer('observatory')"></button>
                     <button class="game-button" onclick="checkAnswer('observatory')"></button></div>
@@ -122,8 +122,8 @@
             </div>
 
             <div id="kitchen" class="room hidden text-center">
-                <h2></h2>
-                <p></p>
+                <h2 class="index-header"></h2>
+                <p class="index-text"></p>
                 <div class="d-flex justify-content-center"><button class="game-button"
                         onclick="checkAnswer('kitchen')"></button>
                     <button class="game-button" onclick="checkAnswer('kitchen')"></button></div>
@@ -134,17 +134,17 @@
             </div>
 
             <div id="final-room" class="room hidden text-center">
-                <h2>The Secret Chamber</h2>
-                <p>Congratulations! You've found the hidden key <img src="assets/images/key1.png" alt="image of key">
+                <h2 class="index-header">The Secret Chamber</h2>
+                <p class="index-text">Congratulations! You've found the hidden key <img src="assets/images/key1.png" alt="image of key">
                     and escaped the haunted mansion!</p>
                 <p>Thank you for playing the Virtual Escape Room Quiz!</p>
                 <div class="d-flex justify-content-center"><button class="game-button d-flex justify-content-center"
                         onclick="startGame()">Restart Game</button></div>
             </div>
             <div id="wrong-answer" class="room hidden">
-                <h2>Wrong Answer!</h2>
-                <p>Oops! Looks like your answer was incorrect.</p>
-                <p>Do you want to try again?</p>
+                <h2 class="index-header">Wrong Answer!</h2>
+                <p class="index-text">Oops! Looks like your answer was incorrect.</p>
+                <p class="index-text">Do you want to try again?</p>
                 <button class="game-button" onclick="startGame()">Start Again</button>
             </div>
         </div>

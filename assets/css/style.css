@@ -537,6 +537,20 @@ ul {
     margin-top: 15px;
 }
 
+.index-header {
+    font-size: 40px;
+    font-family: "Griffy", Arial, sans-serif;
+    color: #f5f5f5;
+    letter-spacing: 3px;
+}
+
+.index-text{
+    font-size: 26px;
+    font-family: "Griffy", Arial, sans-serif;
+    color: #f5f5f5;
+    letter-spacing: 3px;
+}
+
 /* Scary 3D Ghost CSS */
 
 .ghost {
