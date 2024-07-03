@@ -1,6 +1,7 @@
 // Define the rooms and their properties
 var rooms = {
     'living-room': {
+        name: 'Living Room',
         questions: [
             {
                 question: 'Which house does Harry Potter belong to?',
@@ -406,26 +407,29 @@ function startGame() {
     });
     
     // Hide all rooms
-    document.querySelectorAll('.room').forEach(function(room) {
-        room.classList.add('hidden');
-        room.classList.remove('active');
-    });
+    hideAllRooms();
     
     // Show the first room
     showElement('living-room');
     setQuestion('living-room');
     playBackgroundSound();
+
+// Display the initial room name
+var currentRoom = rooms['living-room'];
+document.getElementById('current-room').textContent = 'Current Room: ' + currentRoom.name;
 }
 
 // Function to set a random question for a room
 function setQuestion(room) {
     var currentRoom = rooms[room];
     var questionData = currentRoom.questions[Math.floor(Math.random() * currentRoom.questions.length)];
-    currentRoom.currentQuestion = questionData;  // Store the current question
+    currentRoom.currentQuestion = questionData;
     var roomElement = document.getElementById(room);
+
+    // Set the room name
+    roomElement.querySelector('h2').textContent = currentRoom.name;
     
     // Set the question text
-    roomElement.querySelector('h2').textContent = currentRoom.name;
     roomElement.querySelector('p').textContent = questionData.question;
     
     // Set the choices
