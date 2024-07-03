@@ -42,7 +42,7 @@ a {
 
 /* Nav */
 .navbar {
-    background-color: #0b0b0b;
+    background-color: rgba(11, 11, 11, 0.9);
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -99,7 +99,7 @@ a {
 /* Media query for large screens (992px and down to 768px) */
 @media screen and (max-width: 992px) and (min-width: 768px) {
     .navbar {
-        background-color: #0b0b0b;
+        background-color: rgba(11, 11, 11, 0.9);
         display: flex;
         justify-content: space-between;
         align-items: center;
@@ -155,7 +155,7 @@ a {
 /* Media query for medium screens (768px and down to 576px) */
 @media screen and (max-width: 768px) and (min-width: 576px) {
     .navbar {
-        background-color: #0b0b0b;
+        background-color: rgba(11, 11, 11, 0.9);
         display: flex;
         justify-content: space-between;
         align-items: center;
@@ -211,7 +211,7 @@ a {
 /* Media query for small screens (576px and down to 400px) */
 @media screen and (max-width: 576px) and (min-width: 400px) {
     .navbar {
-        background-color: #0b0b0b;
+        background-color: rgba(11, 11, 11, 0.9);
         display: flex;
         justify-content: space-between;
         align-items: center;
@@ -267,7 +267,7 @@ a {
 /* Media query for small screens (400px and down to 0px) */
 @media screen and (max-width: 400px) and (min-width: 0px) {
     .navbar {
-        background-color: #0b0b0b;
+        background-color: rgba(11, 11, 11, 0.9);
         display: flex;
         justify-content: space-between;
         align-items: center;
@@ -323,7 +323,7 @@ a {
 /* Footer */
 
 footer {
-    background-color: #0b0b0b;
+    background-color: rgba(11, 11, 11, 0.9);
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -366,7 +366,7 @@ footer i {
 @media screen and (max-width: 768px) and (min-width: 576px) {
     
     footer {
-        background-color: #0b0b0b;
+        background-color: rgba(11, 11, 11, 0.9);
         justify-content: space-between;
         align-items: center;
         height: 60px;
@@ -416,7 +416,7 @@ footer i {
 @media screen and (max-width: 576px) {
 
     footer {
-        background-color: #0b0b0b;
+        background-color: rgba(11, 11, 11, 0.9);
         justify-content: space-between;
         align-items: center;
         height: 75px;
