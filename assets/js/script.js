@@ -107,7 +107,7 @@ var rooms = {
                 choices: ['Leo Tolstoy', 'Fyodor Dostoevsky', 'Anton Chekhov', 'Ivan Turgenev']
             },
             {
-                question: 'Who wrote "The Three Body Problem"?',
+                question: 'Who wrote the book "The Three Body Problem"?',
                 correctAnswer: 'Cixin Liu',
                 choices: ['Pablo Neruda', 'Haruki Murakami', 'Cixin Liu', 'Agustina Bazterica']
             }
