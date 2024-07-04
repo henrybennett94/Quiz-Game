@@ -472,7 +472,8 @@ function transitionToNextRoom(currentRoom, nextRoom) {
     hideElement(currentRoom);
     showElement(nextRoom);
     changeBackgroundImage(rooms[nextRoom].backgroundImage);
-    playNextRoomSound();
+    playNextRoomSound(); 
+    getRoomIndex(currentRoom);
     setQuestion(nextRoom);  // Set a new question for the next room
     if (nextRoom === 'final-room') {
         stopBackgroundSound();
@@ -541,3 +542,17 @@ function changeBackgroundImage(imageUrl) {
     document.body.style.backgroundImage = 'url(' + imageUrl + ')';
 }
 
+function getRoomIndex(currentRoom) {
+    var roomKeys = Object.keys(rooms);
+    var totalRooms = roomKeys.length;
+    var roomIndex = roomKeys.indexOf(currentRoom);
+    var result = totalRooms - roomIndex - 2;
+
+    let displayRoomNumber = document.getElementById('room-number')
+    
+    if (result === 1) {
+        displayRoomNumber.textContent = `${result} room to go until you escape the Mansion!`;
+    } else {
+        displayRoomNumber.textContent = `${result} rooms to go until you escape the Mansion!`;
+    }
+}
