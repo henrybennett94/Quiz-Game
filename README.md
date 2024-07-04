@@ -12,8 +12,8 @@
 - [Features](#features)
 - [How to Play](#how-to-play)
 - [Project Structure](#project-structure)
-- [Customization](#customization)
 - [Technology Used](#techology-used)
+- [Bugs](#Bugs)
 - [Credits](#credits)
 - [Contact](#contact)
 
