@@ -45,7 +45,7 @@ Before starting the project, we created a couple of basic wireframes to get an i
 <img src="assets/images/visual-feedback.png" alt="visual feedback text" width="600px" height="400px">
 
 - Visual feedback for incorrect answers.
-<img src="assets/images/wrong-answer.png" alt="text for wrong answer" width="600px" height="400px">
+<img src="assets/images/wrong-answer1.png" alt="text for wrong answer" width="600px" height="400px">
 
 - Background sounds for an immersive experience.
 //add audio file here
