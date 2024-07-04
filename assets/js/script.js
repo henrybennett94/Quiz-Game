@@ -1,5 +1,5 @@
 // Define the rooms and their properties
-var rooms = {
+let rooms = {
     'living-room': {
         name: 'The Living Room',
         questions: [
@@ -421,16 +421,16 @@ function startGame() {
     playBackgroundSound();
 
 // Display the initial room name
-var currentRoom = rooms['living-room'];
+let currentRoom = rooms['living-room'];
 document.getElementById('current-room').textContent = 'Current Room: ' + currentRoom.name;
 }
 
 // Function to set a random question for a room
 function setQuestion(room) {
-    var currentRoom = rooms[room];
-    var questionData = currentRoom.questions[Math.floor(Math.random() * currentRoom.questions.length)];
+    let currentRoom = rooms[room];
+    let questionData = currentRoom.questions[Math.floor(Math.random() * currentRoom.questions.length)];
     currentRoom.currentQuestion = questionData;
-    var roomElement = document.getElementById(room);
+    let roomElement = document.getElementById(room);
 
     // Set the room name
     roomElement.querySelector('h2').textContent = currentRoom.name;
@@ -439,7 +439,7 @@ function setQuestion(room) {
     roomElement.querySelector('p').textContent = questionData.question;
     
     // Set the choices
-    var buttons = roomElement.querySelectorAll('button');
+    let buttons = roomElement.querySelectorAll('button');
     questionData.choices.forEach((choice, index) => {
         buttons[index].textContent = choice;
         buttons[index].setAttribute('onclick', `checkAnswer('${room}', '${choice}')`);
@@ -448,8 +448,8 @@ function setQuestion(room) {
 
 // Function to check the answer
 function checkAnswer(room, answer) {
-    var feedback = document.querySelector('#' + room + ' .feedback');
-    var currentRoom = rooms[room];
+    let feedback = document.querySelector('#' + room + ' .feedback');
+    let currentRoom = rooms[room];
     if (answer === currentRoom.currentQuestion.correctAnswer) {
         feedback.textContent = 'Correct! A secret door opens, leading to the next room.';
         feedback.style.color = 'green';
