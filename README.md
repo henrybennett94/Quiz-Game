@@ -32,7 +32,7 @@ Before starting the project, we created a couple of basic wireframes to get an i
 <img src="assets/images/wireframe3.png" alt="wireframe" width="600px" height="400px">
 
 ## Demo
-    You can try our website here https://henrybennett94.github.io/Quiz-Game/
+    [You can try our website here](https://henrybennett94.github.io/Quiz-Game/)
 ## Features
 
 - Navigate through various themed rooms.
