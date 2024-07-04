@@ -279,7 +279,7 @@ footer i {
     padding: 0.375rem;
     font-family: "Griffy";
     font-size: 1.25rem;
-    color: #0b0b0b;
+    color: #fafafa;
     background-color: #b91327;
     border-radius: 15px;
     margin: 10px;
@@ -562,7 +562,7 @@ footer i {
     padding: 0.375rem;
     font-family: "Griffy";
     font-size: 1.25rem;
-    color: #0b0b0b;
+    color: #fafafa;
     background-color: #b91327;
     border-radius: 15px;
     margin: 10px;
@@ -574,6 +574,7 @@ footer i {
     display: flex;
     text-decoration: none;
     letter-spacing: 3px;
+    text-align: center;
 }
 
 .game-button:hover {
@@ -682,7 +683,7 @@ footer i {
         padding: 0.375rem;
         font-family: "Griffy";
         font-size: 1rem;
-        color: #0b0b0b;
+        color: #fafafa;
         background-color: #b91327;
         border-radius: 15px;
         margin: 10px;
@@ -694,6 +695,7 @@ footer i {
         display: flex;
         text-decoration: none;
         letter-spacing: 3px;
+        text-align: center;
     }
 
     .game-button:hover {
@@ -810,7 +812,7 @@ footer i {
         padding: 0.2rem;
         font-family: "Griffy";
         font-size: 0.75rem;
-        color: #0b0b0b;
+        color: #fafafa;
         background-color: #b91327;
         border-radius: 15px;
         margin: 5px;
@@ -822,6 +824,7 @@ footer i {
         display: flex;
         text-decoration: none;
         letter-spacing: 3px;
+        text-align: center;
     }
 
     .game-button:hover {
@@ -945,7 +948,7 @@ footer i {
         padding: 0.2rem;
         font-family: "Griffy";
         font-size: 0.75rem;
-        color: #0b0b0b;
+        color: #fafafa;
         background-color: #b91327;
         border-radius: 15px;
         margin: 5px;
@@ -957,6 +960,7 @@ footer i {
         display: flex;
         text-decoration: none;
         letter-spacing: 3px;
+        text-align: center;
     }
 
     .game-button:hover {
