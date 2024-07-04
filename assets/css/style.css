@@ -1,5 +1,3 @@
-/* Craig's CSS */
-
 /* setting to override default browser styles */
 
 * {
@@ -18,8 +16,6 @@ body {
 }
 
 body {
-
-    font-family: "Griffy", Arial, sans-serif;
     background: url('./../images/house.jpg') no-repeat center center fixed;
     background-size: cover;
     color: #fafafa;
@@ -241,18 +237,6 @@ footer i {
     }
 }
 
-/* Craig's Css */
-
-ul {
-    list-style-type: none;
-}
-
-.row {
-    background-color: rgb(206, 206, 239);
-}
-
-/*Ashwini's css*/
-
 #game-container {
     flex: 1;
     display: flex;
@@ -351,7 +335,7 @@ ul {
 
 .ghost {
     position: absolute;
-    top: 50%;
+    top: 25%;
     left: 50%;
     width: 100px;
     height: 150px;
@@ -488,8 +472,6 @@ ul {
     margin: auto;
     width: 50%;
 }
-
-/*End of Ashwini's css*/
 
 /* Rules CSS */
 
