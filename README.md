@@ -1,9 +1,9 @@
 
-# Mystery Mansion Escape room Quiz Game!
+# Mystery Mansion Escape Room Quiz Game!
   
   Welcome to the Mystery Mansion Escape Room Quiz Game! This is an interactive game where players navigate through different rooms of a haunted mansion by answering trivia questions correctly. If you answer a question wrong, you'll be shown a message and given the option to start over.
  
- <img>//Image of our website
+ <img src="assets/images/responsive.png" alt="image of landing page" width="600px" height="400px">
  
  ## Table of Contents
 - [Introduction](#introduction)
@@ -26,39 +26,46 @@ The game is designed to be both fun and educational, providing players with a se
 ## Wireframes
 Before starting the project, we created a couple of basic wireframes to get an idea of what our final product would look like. We made both a mobile wireframe and a desktop wireframe.
 
-//images of wireframes of all the pages bothDesktop and mobile view
+<img src="assets/images/wireframe.png" alt="wireframe" width="600px" height="400px">
+<img src="assets/images/wireframe1.png" alt="wireframe" width="600px" height="400px">
+<img src="assets/images/wireframe2.png" alt="wireframe" width="600px" height="400px">
+<img src="assets/images/wireframe3.png" alt="wireframe" width="600px" height="400px">
 
 ## Demo
-      You can try the game live [here](https://abc.com). //our website address
-
+    You can try our website here https://henrybennett94.github.io/Quiz-Game/
 ## Features
 
 - Navigate through various themed rooms.
-//add  home page image
+<img src="assets/images/website-image.png" alt="image of landing page" width="600px" height="400px">
 
 - Answer trivia questions to proceed to the next room.
-//image of question page
+<img src="assets/images/questions.png" alt="question page" width="600px" height="400px">
 
 - Visual feedback for correct answers.
-//image of correct answer images
+<img src="assets/images/visual-feedback.png" alt="visual feedback text" width="600px" height="400px">
 
 - Visual feedback for incorrect answers.
-// image of wrong answer and start again  
+<img src="assets/images/wrong-answer.png" alt="text for wrong answer" width="600px" height="400px">
 
 - Background sounds for an immersive experience.
 //add audio file here
 
 - Replay the Mystery Mansion Escape Room Game.
-//add image of image of Replay game
+<img src="assets/images/website-image.png" alt="image of landing page" width="600px" height="400px">
 
 - Rules Page
-//image of rules page
+<img src="assets/images/rules.png" alt="rules page" width="600px" height="400px">
 
-- Hidden key discovery with image display.
-//image of found key page
+- Supoort Page
+<img src="assets/images/support.png" alt="rules page" width="600px" height="400px">
+
+- Hidden key discovery
+
+<img src="assets/images/hidden-key.png" alt="hidden key when you win" width="300px" height="300px">
 
 - Navbar and Footer
-//images of header and footer
+<img src="assets/images/nav.png" alt="navbar" width="600px" height="75px">
+<img src="assets/images/footer.png" alt="footer" width="600px" height="50px">
 
 ## How to Play
 
@@ -77,15 +84,14 @@ mystery-mansion-escape-room
 - The main CSS file 
 ### rules.html 
 - The Rules page HTML file 
+### support.html
+- The support page HTML file
 ### script.js 
 - The main JavaScript file 
 ### assets/images/ 
 - Images used in the game 
 ### assets/audio/ 
 -audio files used in the game
-
-## Customization
-
 ### Adding/Modifying Questions
 - To add or modify questions, update the rooms object in script.js:
 
@@ -116,6 +122,12 @@ JavaScript is the programming language used to implement the game’s logic. It 
 Bootstrap is a popular CSS framework used to simplify the design and layout of the game. Version 5.3.3 of Bootstrap is used in this project to ensure a responsive design that works well on various devices and screen sizes. It provides pre-styled components and utilities, which help in creating a cohesive and modern interface quickly.
 
 By combining these technologies, the Mystery Mansion Escape Room Quiz Game provides a seamless and engaging experience for players. HTML lays the foundation, CSS and Bootstrap ensure a visually appealing design, and JavaScript brings the game to life with interactivity and logic.
+## Bugs
+
+- We need to add a mute button for the sound that activates when you play the game we have currently disabled the sound as it would not be a good user experience without the mute button implemented.
+- We would like to add an exit button so users can return to the main page from the game not the navbar.
+- There is still some responive issues to resolve the css needs refactoring to streamline the code.
+- The countdown needs to disappear on the first question on additional play throughs.
 
 ## Credits
 
