@@ -54,6 +54,7 @@ a {
     font-family: "Griffy";
     font-size: 24px;
     overflow: hidden;
+    min-height: 100px;
 }
 
 
@@ -498,6 +499,7 @@ footer i {
         font-family: "Griffy";
         font-size: 24px;
         overflow: hidden;
+        min-height: 100px;
     }
 
 
@@ -609,7 +611,7 @@ footer i {
         display: flex;
         justify-content: space-between;
         align-items: center;
-        height: 3.125rem;
+        height: 75px;
         padding: 0 20px;
         width: calc(100% - 20px);
         border-radius: 15px;
@@ -618,6 +620,7 @@ footer i {
         font-family: "Griffy";
         font-size: 1.5rem;
         overflow: hidden;
+        min-height: 75px;
     }
 
 
@@ -745,6 +748,7 @@ footer i {
         font-family: "Griffy";
         font-size: 14px;
         overflow: hidden;
+        min-height: 50px;
     }
 
 
@@ -870,7 +874,7 @@ footer i {
         display: flex;
         justify-content: center;
         align-items: center;
-        height: 100px;
+        height: 75px;
         padding: 0 20px;
         width: calc(100% - 20px);
         border-radius: 15px;
@@ -879,6 +883,7 @@ footer i {
         font-family: "Griffy";
         font-size: 14px;
         overflow: hidden;
+        min-height: 50px;
     }
 
 
